@@ -1536,8 +1536,8 @@ img.author-box-image {
 
 .widget-title {
     font-size: 18px;
-    text-transform: uppercase;*/
-}
+    text-transform: uppercase;
+}*/
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -1622,7 +1622,7 @@ img.author-box-image {
 .btn-outlined.btn-primary:active {
     color: #FFF;
     background: #00b29e;
-    border-color: #00b29e: ;
+    border-color: #00b29e ;
 }
 
 .btn-outlined.btn-success {
