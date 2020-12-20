@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>About Us</title>
+    <title>Home</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/pe-icons.css" rel="stylesheet">
@@ -83,7 +83,7 @@
                     </ul>
                 </li>
                 <li><a href="./achievements.html">Achievements</a></li>
-                <li><a href="pagesHTML/contact-us.html">Contact Us</a></li>
+                <li><a href="./contact-us.html">Contact Us</a></li>
                 <li><a href="./join-us.html">Join Us</a></li>
 
             </ul>
@@ -91,7 +91,7 @@
     </div>
 </header>
 
-    <section id="single-page-slider" class="no-margin">
+     <section id="single-page-slider" class="no-margin">
         <div class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item active">
@@ -99,9 +99,8 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="center gap fade-down section-heading">
-                                    <h2 class="main-title">About Us</h2>
+                                    <h2 class="main-title" id="pgtt">Achievements</h2>
                                     <hr>
-                                    <p>Get to know the E-Cell and the purposes it serves</p>
                                 </div>
                             </div>
                         </div>
@@ -112,63 +111,41 @@
     </section>
 
     <div id="content-wrapper">
-        <section id="about-us" class="white">
-            <div class="container">
-                <div class="gap"></div>
+        <section id="blog" class="white">
+            <div class="container" id='blogrender'>
+            <div class="gap"></div>
                 <div class="row">
-                    <div class="col-md-12 fade-up">
-                        <p style="font-size: 150%;">The Entrepreneurship Cell, IIT(BHU) is institute run body run by the students of IIT(BHU) Varanasi devoted towards acting as a symbiotic link between entrepreneurs of E-Cell,IIT(BHU) and the existing startup ecosystem as well acting as a hub where all startups can meet, collaborate and innovate. 
-<br><br>
-<b>What is the Cell about?</b><br><br>
-The Entrepreneurship-Cell woks towards strengthening ties with the willing and talented entrepreneurs towards a development of startup hub in Varanasi providing numerous opportunities and top quality education in the future. The Entrepreneurship Cell as a whole will be responsible for the apposite interaction between the entrepreneurs of E-Cell,IIT(BHU) and the startup ecosystem.</p>
+                    <aside class="col-sm-4 col-sm-push-8"></aside>
+                    <div class="col-sm-8 col-sm-pull-4">
+                        <div class="blog">
+                            <div class="blog-item" v-for="data in bloglist">
+                                <div class="blog-featured-image">
+                                    <img class="img-responsive img-blog" src="images/success1.png" alt="" />
+                                </div>
+                                <div class="blog-content">
+                                    <a href="blog-item.html"><h3 class="main-title">{{data.heading}}</h3></a>
+                                    <div class="entry-meta">
+                                        <span><i class="fa fa-user"></i> <a href="#">{{data.uploader}}</a></span>
+                                        <span><i class="fa fa-clock-o"></i>{{data.time}}</span>
+                                    </div>
+                                    <p>{{data.para1}}</p>
+                                    <p>{{data.para2}}</p>
+                                    <p>{{data.para3}}</p>
+                                </div>
+                            </div>    
+                        </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 fade-up">
-
-                    </div>
                 </div>
-                <div class="gap"></div>
-                <div class="center gap fade-down section-heading">
-                    <h2 class="main-title">Meet The Team</h2>
-                    <hr>
-                </div>
-                <div class="col-md-12 fade-up">
-                    <p style="font-size: 150%;">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, iure ipsum. Eaque cupiditate optio, consequatur mollitia ducimus assumenda animi aspernatur iusto nisi a accusamus necessitatibus suscipit, ab ad, accusantium reiciendis.
-                            <br>
-                            <b>1. Strategic Relations team</b><br>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure sed dolores velit necessitatibus ea reiciendis adipisci recusandae quo doloribus, vero, repudiandae facilis. Debitis, mollitia fugiat harum quia expedita eius nisi?
-                            <br>
-                            <b>1. Strategic Relations team</b><br>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure sed dolores velit necessitatibus ea reiciendis adipisci recusandae quo doloribus, vero, repudiandae facilis. Debitis, mollitia fugiat harum quia expedita eius nisi?
-                            <br>
-                            <b>1. Strategic Relations team</b><br>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure sed dolores velit necessitatibus ea reiciendis adipisci recusandae quo doloribus, vero, repudiandae facilis. Debitis, mollitia fugiat harum quia expedita eius nisi?
-                            <br>
-                            <b>1. Strategic Relations team</b><br>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure sed dolores velit necessitatibus ea reiciendis adipisci recusandae quo doloribus, vero, repudiandae facilis. Debitis, mollitia fugiat harum quia expedita eius nisi?
-                            <br>
-                            <b>1. Strategic Relations team</b><br>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure sed dolores velit necessitatibus ea reiciendis adipisci recusandae quo doloribus, vero, repudiandae facilis. Debitis, mollitia fugiat harum quia expedita eius nisi?
-                            <br>
-                            <b>1. Strategic Relations team</b><br>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure sed dolores velit necessitatibus ea reiciendis adipisci recusandae quo doloribus, vero, repudiandae facilis. Debitis, mollitia fugiat harum quia expedita eius nisi?
-                            <br>
-                            
-
-                    </p>
-                </div>
-                <div class="gap"></div>
-
-                
+            </div>
         </section>
     </div>
-
     <div id="footer-wrapper">
         <footer id="footer" class="">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                         2020 E-Summit IIT(BHU) Varanasi. All Rights Reserved. &nbsp&nbsp&nbsp
+                         2020 E-Cell IIT (BHU) Varanasi. All Rights Reserved. &nbsp&nbsp&nbsp
                     </div>
                     <div class="col-sm-3">A  Site  by: <a href="./team.html">Harshit Shukla</a></div>
                     <div class="col-sm-3">
@@ -180,10 +157,17 @@ The Entrepreneurship-Cell woks towards strengthening ties with the willing and t
             </div>
         </footer>
     </div>
-
+    <script src="./js/blog.js"></script>
+    <script>blogmaker('indexblg');gallerymaker('indexgallery');</script>
+    <script src="js/plugins.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/plugins.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/jquery.swipebox.min.js"></script> 
+	<script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script> 
 </body>
 </html>
