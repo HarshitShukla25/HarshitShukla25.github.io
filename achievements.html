@@ -57,9 +57,9 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events<i class="icon-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         
-                        <li><a href="pagesHTML/gallery.html">Speed dating</a></li>
-                        <li><a href="pagesHTML/gswwin.html">Prototyping Spree</a></li>
-                        <li><a href="pagesHTML/cohwin.html">Ideation Brainstorming</a></li>
+                        <li><a href="./events.html">E-Summit</a></li>
+                        <li><a href="./events.html">Startup Weekend</a></li>
+                        <li><a href="./events.html">HULT Prize</a></li>
                     </ul>
                 </li>
                 <li class="dropdown active">
@@ -83,8 +83,9 @@
                     </ul>
                 </li>
                 <li><a href="./achievements.html">Achievements</a></li>
+                <li><a href="./team.html">Teams</a></li>
                 <li><a href="./contact-us.html">Contact Us</a></li>
-                <li><a href="./join-us.html">Join Us</a></li>
+               
 
             </ul>
         </div>
@@ -109,50 +110,130 @@
             </div>
         </div>
     </section>
-
     <div id="content-wrapper">
-        <section id="blog" class="white">
-            <div class="container" id='blogrender'>
-            <div class="gap"></div>
-                <div class="row">
-                    <aside class="col-sm-4 col-sm-push-8"></aside>
-                    <div class="col-sm-8 col-sm-pull-4">
-                        <div class="blog">
-                            <div class="blog-item" v-for="data in bloglist">
-                                <div class="blog-featured-image">
-                                    <img class="img-responsive img-blog" src="images/success1.png" alt="" />
-                                </div>
-                                <div class="blog-content">
-                                    <a href="blog-item.html"><h3 class="main-title">{{data.heading}}</h3></a>
-                                    <div class="entry-meta">
-                                        <span><i class="fa fa-user"></i> <a href="#">{{data.uploader}}</a></span>
-                                        <span><i class="fa fa-clock-o"></i>{{data.time}}</span>
-                                    </div>
-                                    <p>{{data.para1}}</p>
-                                    <p>{{data.para2}}</p>
-                                    <p>{{data.para3}}</p>
-                                </div>
-                            </div>    
-                        </div>
-                        </div>
+    <!-- <section id="social" class="white">
+        <div class="container">
+            <div class="center gap fade-down section-heading no-display animated fadeInDown appear">
+                <h2 class="main-title">Recent Success Stories</h2>
+                <hr>
+            </div>
+        </div>
+    </section> -->
+    <section id="portfolio" class="white">
+        <div class="container">
+             <div class="center gap fade-down section-heading no-display animated fadeInDown appear">
+                 <h2 class="main-title">Recent Success Stories</h2>
+                 <hr>
+                 <p>What our students and alums have achieved.</p>
+             </div>
+             <div class="work-agile-right">
+                 <div id="galleryrender" class="Projects">
+                     <div>
+                         <div class="col-md-4 col-sm-6 col-xs-6 agileits-img">
+                             <a href="images/story1.png" title="E-Cell 2020" class="swipebox">
+                                <img src="images/story1.png" alt="" class="img-responsive" style="height: 100%;"> 
+                                <div class="wthree-pcatn">
+                                    <h4>E-Cell 2020</h4>
+                            </div>
+                        </a>
                     </div>
                 </div>
-            </div>
-        </section>
+                <div>
+                    <div class="col-md-4 col-sm-6 col-xs-6 agileits-img">
+                        <a href="images/story2.png" title="E Summit 2020
+                        " class="swipebox">
+                            <img src="images/story2.png" alt="" class="img-responsive" style="height: 100%;"> 
+                            <div class="wthree-pcatn">
+                                <h4>E-Cell 2020</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="col-md-4 col-sm-6 col-xs-6 agileits-img">
+                        <a href="images/story3.png" title=" E cell" class="swipebox"><img src="images/story3.png" alt="" class="img-responsive" style="height: 100%;"> 
+                                <div class="wthree-pcatn">
+                                 <h4>Most Innovative Startup</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div>
+                        <div class="col-md-4 col-sm-6 col-xs-6 agileits-img">
+                                 <a href="images/story4.png" title="E summit 2020" class="swipebox">
+                                <img src="images/story4.png" alt="" class="img-responsive" style="height: 100%;">
+                                 <div class="wthree-pcatn"><h4>E-Cell 2020</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div> -->
+                
+                        
+                            
+                                
+                        
+                
+                </div>
+             </div>    
+         </div>
+ </section>
+ <section id="social" class="white">
+    <div class="container">
+        <div class="center gap fade-down section-heading no-display animated fadeInDown appear">
+            <h2 class="main-title">Legacy by Alumni</h2>
+            <hr>
+            
+        </div>
+        <div id="meet-the-team" class="row">
+            <div class="col-md-3"><div class="center team-member"><img src="images/manish.jpg" alt="" class="img-responsive img-thumbnail bounce-in" style="height: 100%; width: 100%;"> <div class="team-content fade-up"><h5>Manish Gupta<br><small class="role muted">Founder, Alphonso Inc.</small></h5> <p></p> <a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/in/manishgupta001/" target="_blank"><i class="fa fa-linkedin"></i></a></div></div></div>   
+       
+        <div class="col-md-3"><div class="center team-member"><img src="images/vishiyer.jpg" alt="" class="img-responsive img-thumbnail bounce-in" style="height: 100%; width: 100%;"> <div class="team-content fade-up"><h5>Viswanathan Iyer<br><small class="role muted">Cisco Vice President of Architectures (APAC & Japan)</small></h5> <p></p> <a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/in/viswanathan-iyer-90a0781/" target="_blank"><i class="fa fa-linkedin"></i></a></div></div></div>
+        <div class="col-md-3"><div class="center team-member"><img src="images/vishnarayan.jpg" alt="" class="img-responsive img-thumbnail bounce-in" style="height: 100%; width: 100%;"> <div class="team-content fade-up"><h5>Vish Narayan<br><small class="role muted">Co-Founder Taqanal Energy</small></h5> <p></p><a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/in/vish-narayanan-155814/" target="_blank"><i class="fa fa-linkedin"></i></a></div></div></div>
+        
+        <div class="col-md-3"><div class="center team-member"><img src="images/gunjan.jpg" alt="" class="img-responsive img-thumbnail bounce-in" style="height: 100%; width: 100%;"> <div class="team-content fade-up"><h5>Gunjan Shukla<br><small class="role muted">CFO - Emerging Markets at OLX Group (earlier PayPal, Lending Club, VISA)</small></h5> <p></p><a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/in/dirghayukaushik/" target="_blank"><i class="fa fa-linkedin"></i></a></div></div></div>
+        <div class="col-md-3"><div class="center team-member"><img src="images/gunjan.jpg" alt="" class="img-responsive img-thumbnail bounce-in" style="height: 100%; width: 100%;"> <div class="team-content fade-up"><h5>Gunjan Shukla<br><small class="role muted">CFO - Emerging Markets at OLX Group (earlier PayPal, Lending Club, VISA)</small></h5> <p></p><a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/in/dirghayukaushik/" target="_blank"><i class="fa fa-linkedin"></i></a> </div></div></div>
+        <div class="col-md-3"><div class="center team-member"><img src="images/gunjan.jpg" alt="" class="img-responsive img-thumbnail bounce-in" style="height: 100%; width: 100%;"> <div class="team-content fade-up"><h5>Gunjan Shukla<br><small class="role muted">CFO - Emerging Markets at OLX Group (earlier PayPal, Lending Club, VISA)</small></h5> <p></p><a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/in/dirghayukaushik/" target="_blank"><i class="fa fa-linkedin"></i></a> </div></div></div>
+        <div class="col-md-3"><div class="center team-member"><img src="images/vishal.jpg" alt="" class="img-responsive img-thumbnail bounce-in" style="height: 100%; width: 100%;"> <div class="team-content fade-up"><h5>Vishal Jindal<br><small class="role muted">Founder - Biryani by Kilo</small></h5> <p></p> <a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/in/dirghayukaushik/" target="_blank"><i class="fa fa-linkedin"></i></a></div></div></div>
+            
+        <div class="col-md-3"><div class="center team-member"><img src="images/savient.jpg" alt="" class="img-responsive img-thumbnail bounce-in" style="height: 100%; width: 100%;"> <div class="team-content fade-up"><h5>Anubhav Dwivedi<br><small class="role muted">Founder,Savient Consulting</small></h5> <p></p> <a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/in/dirghayukaushik/" target="_blank"><i class="fa fa-linkedin"></i></a></div></div></div>
+        <div class="col-md-3"><div class="center team-member"><img src="images/qtrove.jpg" alt="" class="img-responsive img-thumbnail bounce-in" style="height: 100%; width: 100%;"> <div class="team-content fade-up"><h5>Vinarma Pandya<br><small class="role muted">Founder - Qtrove</small></h5> <p></p><a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/in/dirghayukaushik/" target="_blank"><i class="fa fa-linkedin"></i></a> </div></div></div>
+        
+        
+        <div class="col-md-3"><div class="center team-member"><img src="images/vishal.jpg" alt="" class="img-responsive img-thumbnail bounce-in" style="height: 100%; width: 100%;"> <div class="team-content fade-up"><h5>Vishal Jindal<br><small class="role muted">Founder - Biryani by Kilo</small></h5> <p></p> <a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/in/dirghayukaushik/" target="_blank"><i class="fa fa-linkedin"></i></a></div></div></div>
+    <div class="container">
+    
+    
+    <div class="container">
+</section>
+
     </div>
     <div id="footer-wrapper">
         <footer id="footer" class="">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                         2020 E-Cell IIT (BHU) Varanasi. All Rights Reserved. &nbsp&nbsp&nbsp
+                        <h3>Contact US</h3>
+                        MCIIE IIT BHU<br>
+                        Varanasi,India.<br>
+                        221005 <br> <br> 
+                        2021 E-Cell IIT (BHU) Varanasi. All Rights Reserved. &nbsp&nbsp&nbsp
                     </div>
-                    <div class="col-sm-3">A  Site  by: <a href="./team.html">Harshit Shukla</a></div>
-                    <div class="col-sm-3">
-                        <ul class="pull-right">
-                            <li><a id="gototop" class="gototop" href="#"><i class="fa fa-chevron-up"></i></a></li>
-                        </ul>
-                    </div>
+                    <div class="col-sm-6">
+                        <a style="margin: 5%;font-size: 26px " href="https://www.facebook.com/ecelliitvaranasi" target="_blank" class="fa fa-facebook wow fadeIn  myanimfb ja " data-wow-delay="0.3s"></a>
+    
+                    <a style="margin: 5%;font-size: 26px" href="https://twitter.com/ecelliitbhu" target="_blank" class="fa fa-twitter wow fadeIn  myanimtw ja" data-wow-delay="0.6s"></a>
+                    
+                    <a style="margin: 5%;font-size: 26px" href="https://www.instagram.com/ecelliitbhu/" target="_blank" class="fa fa-instagram wow fadeIn  myanimig ja" data-wow-delay="0.9s"></a>
+                
+                    <a style="margin: 5%;font-size: 26px" href="https://www.youtube.com/channel/UCUme5nNmSKY1GiUBUhlAnOQ" target="_blank" class="fa fa-youtube wow fadeIn  myanimyo ja" data-wow-delay="0.9s"></a>
+                
+                    <a style="margin: 5%;font-size: 26px" href="https://www.linkedin.com/company/e-cell-iit-bhu-varanasi/" target="_blank" class="fa fa-linkedin wow fadeIn  myanimin ja" data-wow-delay="0.9s"></a>
+                    <ul class="pull-right">
+                        <li><a id="gototop" class="gototop" href="#"><i class="fa fa-chevron-up"></i></a></li>
+                    </ul>
+                   </div>
+                
+              
                 </div>
             </div>
         </footer>
