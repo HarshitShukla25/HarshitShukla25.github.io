@@ -2962,3 +2962,27 @@ img.author-box-image {
     83.30% {background-position:-1600px 0;}
     100% {background-position:0 0;}
   }
+
+
+  /* new wave  */
+ .custom-img
+ {  margin:auto;
+     width: 100%;
+     position:relative;
+ }
+
+ .contactcard {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .contactcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .cardcontainer {
+    padding: 2px 16px;
+  }
