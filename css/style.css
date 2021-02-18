@@ -3057,3 +3057,9 @@ img.author-box-image {
         
     }
 }
+.custom-img1{
+    width: 70%;
+    margin:auto;
+    
+    position:relative;
+}
