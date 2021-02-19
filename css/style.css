@@ -54,6 +54,7 @@ h6 {
 }
 
 a {
+    cursor:pointer;
     color: #222;
     -webkit-transition: 300ms;
     -moz-transition: 300ms;
@@ -121,9 +122,9 @@ blockquote {
 }
 
 .main-title {
-    /* font-family: 'playfair_displayregular';
-    src: url('playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
-         url('playfairdisplay-variablefont_wght-webfont.woff') format('woff');
+    /* font-family: 'brandon_grotesqueregular';
+    src: url('brandon-grotesque-regular-webfont.woff2') format('woff2'),
+         url('brandon-grotesque-regular-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal; */
     text-transform: uppercase;
@@ -2485,7 +2486,7 @@ img.author-box-image {
 
 .testim .cont div h2 {
     color: #ea830e;
-    font-size: 1em;
+    font-size: 1.6em;
     margin: 15px 0;
 }
 
@@ -2936,7 +2937,7 @@ img.author-box-image {
 	.testim .cont div p {
 		line-height: 25px;
 	}
-
+    
 }
 
 
@@ -3039,12 +3040,25 @@ img.author-box-image {
     font-size: 24px;
     margin-top: 0;
 }
-
+.youtube-m{
+    display: none;
+}
 .blurb-info {
     color: #646B90;
     font-size: 18px;
 }
-@media (max-width: 768px) {
+@media only screen 
+    and (max-device-width : 667px) 
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 2) {
+    .youtube
+    {
+        display: none;
+    }
+    .youtube-m
+    {
+        display: inline-block;
+    }
     .media-object {
         flex-direction: column;
         text-align: center;
@@ -3118,13 +3132,14 @@ img.author-box-image {
     transform-origin:center right;
   }
   .entry-title {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ea830e 50%);
+    /* background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ea830e 50%);
     background-size: 200%;
     background-position: 0 0;
     display: inline;
     transition: 0.5s ease-in-out;
     font-family: raleway, arial, sans-serif;
-    text-transform: uppercase;
+    text-transform: uppercase; */
+    text-shadow: 0px 0px 20px #393636;
   }
   /* .titlecard:hover {
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
