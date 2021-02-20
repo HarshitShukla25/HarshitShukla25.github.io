@@ -1243,7 +1243,7 @@ ul.rss li::before {
 
 #footer a:hover,
 #footer-wrapper a:hover {
-    color: #ea830e;
+    color: #FA8231;
 }
 
 #footer ul {
@@ -2395,7 +2395,7 @@ img.author-box-image {
 }
 
 .testim .arrow:hover {
-    color: #ea830e;
+    color: #FA8231;
 }
     
 
@@ -2439,8 +2439,8 @@ img.author-box-image {
 
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
-    background: #ea830e;
-    border-color: #ea830e;
+    background: #FA8231;
+    border-color: #FA8231;
 }
 
 .testim .dots .dot.active {
@@ -2485,7 +2485,7 @@ img.author-box-image {
 }
 
 .testim .cont div h2 {
-    color: #ea830e;
+    color: #FA8231;
     font-size: 1.6em;
     margin: 15px 0;
 }
@@ -2557,13 +2557,13 @@ img.author-box-image {
     }
 
     70% {
-        -webkit-box-shadow: 0px 0px 10px 5px #ea830e;        
-        box-shadow: 0px 0px 10px 5px #ea830e;        
+        -webkit-box-shadow: 0px 0px 10px 5px #FA8231;        
+        box-shadow: 0px 0px 10px 5px #FA8231;        
     }
 
     100% {
-        -webkit-box-shadow: 0px 0px 0px 0px #ea830e;        
-        box-shadow: 0px 0px 0px 0px #ea830e;        
+        -webkit-box-shadow: 0px 0px 0px 0px #FA8231;        
+        box-shadow: 0px 0px 0px 0px #FA8231;        
     }
 }
 
@@ -2579,13 +2579,13 @@ img.author-box-image {
     }
 
     70% {
-        -moz-box-shadow: 0px 0px 10px 5px #ea830e;        
-        box-shadow: 0px 0px 10px 5px #ea830e;        
+        -moz-box-shadow: 0px 0px 10px 5px #FA8231;        
+        box-shadow: 0px 0px 10px 5px #FA8231;        
     }
 
     100% {
-        -moz-box-shadow: 0px 0px 0px 0px #ea830e;        
-        box-shadow: 0px 0px 0px 0px #ea830e;        
+        -moz-box-shadow: 0px 0px 0px 0px #FA8231;        
+        box-shadow: 0px 0px 0px 0px #FA8231;        
     }
 }
 
@@ -2601,13 +2601,13 @@ img.author-box-image {
     }
 
     70% {
-        -ms-box-shadow: 0px 0px 10px 5px #ea830e;        
-        box-shadow: 0px 0px 10px 5px #ea830e;        
+        -ms-box-shadow: 0px 0px 10px 5px #FA8231;        
+        box-shadow: 0px 0px 10px 5px #FA8231;        
     }
 
     100% {
-        -ms-box-shadow: 0px 0px 0px 0px #ea830e;        
-        box-shadow: 0px 0px 0px 0px #ea830e;        
+        -ms-box-shadow: 0px 0px 0px 0px #FA8231;        
+        box-shadow: 0px 0px 0px 0px #FA8231;        
     }
 }
 
@@ -2623,13 +2623,13 @@ img.author-box-image {
     }
 
     70% {
-        -o-box-shadow: 0px 0px 10px 5px #ea830e;        
-        box-shadow: 0px 0px 10px 5px #ea830e;        
+        -o-box-shadow: 0px 0px 10px 5px #FA8231;        
+        box-shadow: 0px 0px 10px 5px #FA8231;        
     }
 
     100% {
-        -o-box-shadow: 0px 0px 0px 0px #ea830e;        
-        box-shadow: 0px 0px 0px 0px #ea830e;        
+        -o-box-shadow: 0px 0px 0px 0px #FA8231;        
+        box-shadow: 0px 0px 0px 0px #FA8231;        
     }
 }
 
@@ -2643,11 +2643,11 @@ img.author-box-image {
     }
 
     70% {
-        box-shadow: 0px 0px 10px 5px #ea830e;        
+        box-shadow: 0px 0px 10px 5px #FA8231;        
     }
 
     100% {
-        box-shadow: 0px 0px 0px 0px #ea830e;        
+        box-shadow: 0px 0px 0px 0px #FA8231;        
     }
 }
 
@@ -3117,7 +3117,7 @@ img.author-box-image {
     top:0.1em;
     border-width:0.5em;
     border-style:solid;
-    border-color:orange;
+    border-color:#FA8231;
     position:absolute;
     width:calc(100% - 0.5em);
     border-left-color:transparent;
@@ -3129,7 +3129,7 @@ img.author-box-image {
     top:0.1em;
     border-width:0.5em;
     border-style:solid;
-    border-color:orange;
+    border-color:#FA8231;
     position:absolute;
     border-top-color:transparent;
     border-bottom-color:transparent;
@@ -3138,7 +3138,7 @@ img.author-box-image {
     transform-origin:center right;
   }
   .entry-title {
-    /* background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #ea830e 50%);
+    /* background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #FA8231 50%);
     background-size: 200%;
     background-position: 0 0;
     display: inline;
@@ -3203,4 +3203,5 @@ img.author-box-image {
     /* background-color: #ffa641; */
     background-color: #4d4b4b21;
     color: black;
+    border-radius: 6px;
   }
