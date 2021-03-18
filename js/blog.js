@@ -237,3 +237,19 @@ function links() {
    
 }
 //yaha se preloader
+var available;
+var percentage_of_page;
+var half_screen;
+var height;
+
+$(window).scroll(function (e) {
+    available = $(document).height();
+    percentage_of_page = 0.5;
+    half_screen = available * percentage_of_page;
+    height = $(window).scrollTop();
+    if ( height > half_screen ) {
+        $(document.getElementById('notif')).show();
+    } else {
+        $(document.getElementById('notif')).hide();
+    }
+});
